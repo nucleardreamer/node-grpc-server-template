@@ -1,0 +1,12 @@
+---
+version: '3'
+
+services:
+  server:
+    build: .
+    image: index.docker.io/nucleardreamer/node-grpc-server-template:${VERSION-latest}
+    network_mode: host
+    environment:
+      - PORT=9000
+    volumes:
+      - ./src:/src/

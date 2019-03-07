@@ -1,0 +1,32 @@
+{
+  "name": "grpc-server-template",
+  "version": "0.1.0",
+  "description": "Template to construct a quick dockerized gRPC server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "exit 0;"
+  },
+  "engines": {
+    "node": ">=10.15.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nucleardreamer/node-grpc-server-template.git"
+  },
+  "author": "Flynn Joffray <nucleardreamer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nucleardreamer/node-grpc-server-template/issues"
+  },
+  "homepage": "https://github.com/nucleardreamer/node-grpc-server-template#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "~0.4.0",
+    "grpc": "~1.19.0",
+    "lodash": "~4.17.11",
+    "serialport": "~7.1.4"
+  },
+  "devDependencies": {
+    "quick-grpc": "~1.0.2"
+  }
+}
